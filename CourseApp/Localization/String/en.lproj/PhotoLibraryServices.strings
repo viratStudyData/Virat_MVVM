@@ -1,0 +1,17 @@
+/* 
+  PhotoLibraryServices.strings
+  Wade7Teacher
+
+  Created by OSX on 26/12/17.
+  Copyright © 2017 OSX. All rights reserved.
+*/
+
+
+"PHOTOS" = "Photos";
+"CAMERA_ROLL" = "Camera roll";
+"ALL_SCREENSHOTS" = "Screenshots";
+"ALL_PHOTOS" = "ALL PHOTOS";
+"ALL_VIDEOS" = "ALL VIDEOS";
+"MOMENT_TITLE_PREFIX_FORMAT" = "MOMENT";
+"ALL_FAVORITES" = "ALL FAVORITES";
+

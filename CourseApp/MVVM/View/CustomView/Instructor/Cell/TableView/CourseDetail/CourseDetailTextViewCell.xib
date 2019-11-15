@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CourseDetailTextViewCell" rowHeight="119" id="xOp-jP-3MG" customClass="CourseDetailTextViewCell" customModule="CourseApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="119"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xOp-jP-3MG" id="MDX-ge-uEJ">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UIQ-aO-1Lp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="119"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Courses Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3o-CO-7th">
+                                <rect key="frame" x="8" y="8" width="71" height="14"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" name="colorText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZV9-nw-Exj">
+                                <rect key="frame" x="8" y="30.5" width="398" height="80.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.82771241659999994" green="0.81204491850000005" blue="0.78615641589999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWp-ls-b2b">
+                                <rect key="frame" x="360" y="0.0" width="46" height="30.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="yfa-DW-I5p"/>
+                                </constraints>
+                                <state key="normal" image="ic_link"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="colorScreenBg"/>
+                        <constraints>
+                            <constraint firstItem="ZV9-nw-Exj" firstAttribute="top" secondItem="iWp-ls-b2b" secondAttribute="bottom" id="CTG-UO-37P"/>
+                            <constraint firstItem="ZV9-nw-Exj" firstAttribute="top" secondItem="L3o-CO-7th" secondAttribute="bottom" constant="8.5" id="EvT-PM-sB7"/>
+                            <constraint firstAttribute="trailing" secondItem="iWp-ls-b2b" secondAttribute="trailing" constant="8" id="GGt-8M-jbE"/>
+                            <constraint firstItem="L3o-CO-7th" firstAttribute="leading" secondItem="UIQ-aO-1Lp" secondAttribute="leading" constant="8" id="LZG-gY-SCi"/>
+                            <constraint firstAttribute="trailing" secondItem="ZV9-nw-Exj" secondAttribute="trailing" constant="8" id="P3v-Fe-6H9"/>
+                            <constraint firstItem="iWp-ls-b2b" firstAttribute="top" secondItem="UIQ-aO-1Lp" secondAttribute="top" id="XaA-x6-0fe"/>
+                            <constraint firstItem="L3o-CO-7th" firstAttribute="top" secondItem="UIQ-aO-1Lp" secondAttribute="top" constant="8" id="nub-Fo-MD9"/>
+                            <constraint firstItem="ZV9-nw-Exj" firstAttribute="leading" secondItem="UIQ-aO-1Lp" secondAttribute="leading" constant="8" id="rs0-Zi-gZS"/>
+                            <constraint firstAttribute="bottom" secondItem="ZV9-nw-Exj" secondAttribute="bottom" constant="8" id="zHn-dv-8pc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="UIQ-aO-1Lp" secondAttribute="trailing" id="E4x-78-9vV"/>
+                    <constraint firstItem="UIQ-aO-1Lp" firstAttribute="leading" secondItem="MDX-ge-uEJ" secondAttribute="leading" id="Yql-th-8Tm"/>
+                    <constraint firstAttribute="bottom" secondItem="UIQ-aO-1Lp" secondAttribute="bottom" id="ZqU-EQ-rS7"/>
+                    <constraint firstItem="UIQ-aO-1Lp" firstAttribute="top" secondItem="MDX-ge-uEJ" secondAttribute="top" id="cme-b1-osC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="labelTitle" destination="L3o-CO-7th" id="Quq-I1-MVj"/>
+                <outlet property="textView" destination="ZV9-nw-Exj" id="3I2-52-f8m"/>
+            </connections>
+            <point key="canvasLocation" x="-42.028985507246382" y="132.92410714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_link" width="16" height="10"/>
+        <namedColor name="colorScreenBg">
+            <color red="0.98000001907348633" green="0.97299998998641968" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorText">
+            <color red="0.34799998998641968" green="0.41499999165534973" blue="0.47499999403953552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

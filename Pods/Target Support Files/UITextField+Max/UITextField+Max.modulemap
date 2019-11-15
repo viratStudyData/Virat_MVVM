@@ -1,0 +1,6 @@
+framework module UITextField_Max {
+  umbrella header "UITextField+Max-umbrella.h"
+
+  export *
+  module * { export * }
+}

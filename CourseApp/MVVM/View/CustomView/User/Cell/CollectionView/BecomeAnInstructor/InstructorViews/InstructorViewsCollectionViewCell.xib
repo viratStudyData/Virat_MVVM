@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="InstructorViewsCollectionViewCell" id="gTV-IL-0wX" customClass="InstructorViewsCollectionViewCell" customModule="CourseApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="298" height="97"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="298" height="97"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NgT-0z-3sD">
+                        <rect key="frame" x="0.0" y="0.0" width="298" height="97"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QyH-U9-9za">
+                                <rect key="frame" x="0.0" y="0.0" width="298" height="97"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_placeholder_small" translatesAutoresizingMaskIntoConstraints="NO" id="bPG-xO-i3n">
+                                        <rect key="frame" x="16" y="16" width="57" height="57"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="bPG-xO-i3n" secondAttribute="height" multiplier="1:1" id="SKH-Fj-KzB"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aaron draplinAaron draplinAaron draplinAaron " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWV-sf-ggG">
+                                        <rect key="frame" x="81" y="16" width="208.5" height="37.5"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                        <color key="textColor" name="colorHeadings"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="22"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 courses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGA-gc-c1a">
+                                        <rect key="frame" x="81" y="55.5" width="208.5" height="14"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                        <color key="textColor" name="colorHeadingsBorder"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                                        </variation>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s4e-m8-4s2">
+                                        <rect key="frame" x="81" y="77.5" width="197" height="8"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="8" id="Kpr-ai-iEA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="s4e-m8-4s2" secondAttribute="trailing" constant="20" symbolic="YES" id="9Th-3t-XLU"/>
+                                    <constraint firstItem="VGA-gc-c1a" firstAttribute="trailing" secondItem="hWV-sf-ggG" secondAttribute="trailing" id="DyU-JG-qlq"/>
+                                    <constraint firstItem="hWV-sf-ggG" firstAttribute="width" secondItem="QyH-U9-9za" secondAttribute="width" multiplier="0.7" id="EL8-Ur-BZu"/>
+                                    <constraint firstItem="s4e-m8-4s2" firstAttribute="leading" secondItem="bPG-xO-i3n" secondAttribute="trailing" constant="8" id="GbZ-lw-Zi8"/>
+                                    <constraint firstItem="bPG-xO-i3n" firstAttribute="top" secondItem="QyH-U9-9za" secondAttribute="top" constant="16" id="M2E-Gh-Lm8"/>
+                                    <constraint firstItem="hWV-sf-ggG" firstAttribute="top" secondItem="bPG-xO-i3n" secondAttribute="top" id="UMQ-FT-D8N"/>
+                                    <constraint firstItem="s4e-m8-4s2" firstAttribute="top" secondItem="VGA-gc-c1a" secondAttribute="bottom" constant="8" id="XvY-nT-BNg"/>
+                                    <constraint firstItem="VGA-gc-c1a" firstAttribute="top" secondItem="hWV-sf-ggG" secondAttribute="bottom" constant="2" id="Zdh-53-hJq"/>
+                                    <constraint firstAttribute="bottom" secondItem="s4e-m8-4s2" secondAttribute="bottom" constant="11.5" id="dyp-ps-C9C"/>
+                                    <constraint firstItem="bPG-xO-i3n" firstAttribute="leading" secondItem="QyH-U9-9za" secondAttribute="leading" constant="16" id="eHL-AO-5sw"/>
+                                    <constraint firstItem="hWV-sf-ggG" firstAttribute="leading" secondItem="bPG-xO-i3n" secondAttribute="trailing" constant="8" id="iY1-fG-Vge"/>
+                                    <constraint firstItem="VGA-gc-c1a" firstAttribute="leading" secondItem="hWV-sf-ggG" secondAttribute="leading" id="xab-LH-5gR"/>
+                                    <constraint firstAttribute="bottom" secondItem="bPG-xO-i3n" secondAttribute="bottom" constant="24" id="xls-pz-M8a"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" name="colorPlaceHolder"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="QyH-U9-9za" firstAttribute="top" secondItem="NgT-0z-3sD" secondAttribute="top" id="6R1-RI-goP"/>
+                            <constraint firstAttribute="trailing" secondItem="QyH-U9-9za" secondAttribute="trailing" id="B4s-ER-UnH"/>
+                            <constraint firstItem="QyH-U9-9za" firstAttribute="leading" secondItem="NgT-0z-3sD" secondAttribute="leading" id="iT1-cT-VdD"/>
+                            <constraint firstAttribute="bottom" secondItem="QyH-U9-9za" secondAttribute="bottom" id="sck-De-h1G"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="NgT-0z-3sD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MS9-F7-ZXz"/>
+                <constraint firstItem="NgT-0z-3sD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RlL-D2-eb8"/>
+                <constraint firstAttribute="trailing" secondItem="NgT-0z-3sD" secondAttribute="trailing" id="itS-67-S53"/>
+                <constraint firstAttribute="bottom" secondItem="NgT-0z-3sD" secondAttribute="bottom" id="nJ2-9E-C1D"/>
+            </constraints>
+            <size key="customSize" width="356" height="97"/>
+            <point key="canvasLocation" x="-660.86956521739137" y="5.0223214285714279"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_placeholder_small" width="34" height="34"/>
+        <namedColor name="colorHeadings">
+            <color red="0.063000001013278961" green="0.16500000655651093" blue="0.2630000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorHeadingsBorder">
+            <color red="0.063000001013278961" green="0.16500000655651093" blue="0.2630000114440918" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorPlaceHolder">
+            <color red="0.59600001573562622" green="0.62400001287460327" blue="0.6589999794960022" alpha="0.60000002384185791" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

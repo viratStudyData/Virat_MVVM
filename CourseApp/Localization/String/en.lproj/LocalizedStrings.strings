@@ -1,0 +1,118 @@
+/*
+ LocalizedStrings.strings
+ CourseApp
+ 
+ Created by Apple on 21/10/19.
+ Copyright © 2019 Mac_Mini17. All rights reserved.
+ */
+
+
+//MARK: USER PROFILE
+
+"My Calander" = "My Calander";
+"View your upcoming live schedule" = "View your upcoming live schedule";
+"Become an instructor" = "Become an instructor";
+"Become an instructor and earn" = "Become an instructor and earn";
+"Change language" = "Change language";
+"English" = "English";
+"Settings" = "Settings";
+"Manage your account" = "Manage your account";
+"Terms of use" = "Terms of use";
+"View the terms of usage" = "View the terms of usage";
+"Privacy Policy" = "Privacy Policy";
+"View the privacy policy" = "View the privacy policy";
+"Sign out" = "Sign out";
+"Logout of your account" = "Logout of your account";
+
+//MARK: Instructor Home
+"Create a course" = "Create a course";
+"CreateCourseDesc" = "Earn money while teaching what you love to do in simple and easy steps";
+"All courses" = "All courses";
+"Approved" = "Approved";
+"AllcoursesDesc" = "Checkout all the courses you have created";
+"Pending for approval" = "Pending for approval";
+"PendingDesc" = "These courses are pending for approval from admin side";
+"Saved in drafts" = "Saved in drafts";
+"DraftsDesc" = "Complete the course details to make them online";
+"Username" = "Username";
+"UserDesc" = "View profile details,settings and manage your payments";
+"English" = "English";
+"Arabic" = "Arabic";
+//MARK: Category Questions
+"Category Question" = "What kind of prior teaching experience do you have?";
+"Option1" = "Classroom";
+"Option2" = "Online";
+"Option3" = "Little or no prior experience";
+"Option4" = "Other";
+//MARK: Video Questions
+"Video Question" = "How much of a video 'pro' are you?";
+"VideoOption1" = "I'm beginner";
+"VideoOption2" = "I have some knowledge";
+"VideoOption3" = "I'm experienced";
+"VideoOption4" = "I have video ready to upload";
+//MARK: Course Creation
+"Course Title1" = "Jump Into Course Creation";
+"Course Title2" = "Create an Engaging Course";
+"Course Title3" = "Build Your Audience";
+"Course Title4" = "Join the Newcomer Challenge!";
+"Course Desc" = "Why Do You Need To Join An Affiliate Marketing Network";
+"Course ButtonTitle" = "CREATE COURSE";
+"GET STARTED" = "GET STARTED";
+//MARK: Profile
+"Course" = "Course";
+"Communication" = "Communication";
+"Performance" = "Performance";
+"Tools" = "Tools";
+"Resources" = "Resources";
+"Library" = "Library";
+//MARK: Submit Course Screen Section - 1
+"Plan your courses" = "Plan your courses";
+"Course detail" = "Course detail";
+"Course objective and requirments" = "Course objective and requirments";
+"Course structure" = "Course structure";
+"Set up & Testing" = "Set up & Testing";
+//MARK: Submit Course Screen Section - 2
+"Create your content" = "Create your content";
+"Create Curriculum" = "Create Curriculum";
+"Add subtitles" = "Add subtitles";
+"Book your calender" = "Book your calender";
+//MARK: Submit Course Screen Section - 3
+"Publish your courses" = "Publish your courses";
+"Course Preview" = "Course Preview";
+"Pricing" = "Pricing";
+"Promotions" = "Promotions";
+"Course Messages" = "Course Messages";
+//MARK: Course Details
+"Courses title" = "Courses title";
+"Course catergory" = "Course catergory";
+"Course sub catergory" = "Course sub catergory";
+"Course Type" = "Course Type";
+"Course Language" = "Course Language";
+"suitableaudience" = "Who is a suitable audience for your course?";
+"Course details" = "Course details";
+//MARK: Course objective and requirments
+"learning objectives" = "What are the learning objectives of your course";
+"course requirements" = "Are there any course requirements or prerequisites?";
+"target students?" = "Who are your target students?";
+"ObjectivePlaceholder1" = "Please add..";
+"ObjectivePlaceholder2" = "Example: Be able to…..";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

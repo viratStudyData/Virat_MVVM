@@ -1,0 +1,25 @@
+/* 
+  PhotoLibrary.strings
+  Wade7Teacher
+
+  Created by OSX on 26/12/17.
+  Copyright © 2017 OSX. All rights reserved.
+*/
+
+"STREAM_SHARED_BY_ME_SUBTITLE" = "From You";
+"STREAM_SHARED_BY_SUBTITLE" = "From %@";
+"ALBUM_IMAGE_COUNT_FORMAT" = "%@ Photos";
+"ALBUM_VIDEO_COUNT_FORMAT" = "%@ Videos";
+"1_ALBUM_PHOTO" = "1 Photo";
+"1_ALBUM_VIDEO" = "1 Video";
+"ALBUM_TWO_TYPES_LABEL_COMMAS" = "%@, %@";
+"CHOOSE_PHOTO_BUTTON" = "CHOOSE";
+"MOMENT_TITLE_PREFIX_FORMAT" = "MOMENT";
+"ALL_FAVORITES" = "ALL FAVORITIES";
+"RETAKE" = "RETAKE";
+"USE_VIDEO" = "USE VIDEO";
+"VIDEO_TOO_LONG_TITLE" = "Video Too Long to Send";
+"VIDEO_TOO_LONG_BODY" = "Please select a smaller clip from this Video";
+"USE_PHOTO" = "USE PHOTO";
+"CANCEL" = "CANCEL";
+

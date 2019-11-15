@@ -1,0 +1,14 @@
+/* 
+  GooglePlaces.strings
+  ComogiApp
+
+  Created by OSX on 20/03/18.
+  Copyright © 2018 OSX. All rights reserved.
+*/
+"PlaceAutocompleteSearchBarPlaceholder" = "Search";
+"PlaceAutocompleteLocationUnrecognized" = "No results found";
+"PlaceAutocompleteTryAgainButtonLabel" = "Try again";
+"PlaceAutocompleteCantLoadResults" = "Can't load search results";
+"PlacePickerSelectThisLocation" = "Select This Location";
+"PlacePickerUpdatingPlaces" = "Updating Places";
+

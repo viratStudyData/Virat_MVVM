@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Black.ttf">
+            <string>Roboto-Black</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MediaPickerView" customModule="CourseApp" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="VUY-qr-6ny" id="ZpG-h7-aX6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HOe-fR-LRw">
+                    <rect key="frame" x="0.0" y="0.0" width="383" height="200"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9Y-kp-d20">
+                            <rect key="frame" x="139.5" y="20" width="223.5" height="48"/>
+                            <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="14"/>
+                            <state key="normal" title="  ADD FROM LIBRARY  ">
+                                <color key="titleColor" name="colorHeadings"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" name="colorHeadingsBorder"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnActionAddFromLibrary:" destination="-1" eventType="touchUpInside" id="Utc-tg-Fbx"/>
+                            </connections>
+                        </button>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="VUY-qr-6ny">
+                            <rect key="frame" x="100" y="76" width="263" height="108"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TU1-fa-p7E">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xlG-Mj-u1w">
+                            <rect key="frame" x="20" y="76" width="80" height="108"/>
+                            <color key="backgroundColor" name="colorViewBg"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="zw5-xL-vRX"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhH-QC-fPE">
+                            <rect key="frame" x="20" y="20" width="111.5" height="48"/>
+                            <color key="backgroundColor" name="colorCreateCourse"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="khK-eA-XQj"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="14"/>
+                            <state key="normal" title="  UPLOAD  ">
+                                <color key="titleColor" name="colorThemeHeadings"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" name="colorThemeBorder"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="exclusiveTouchEnabled" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnActionUpload:" destination="-1" eventType="touchUpInside" id="IFE-xL-e6n"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="k9Y-kp-d20" firstAttribute="height" secondItem="rhH-QC-fPE" secondAttribute="height" id="0oH-56-JML"/>
+                        <constraint firstItem="xlG-Mj-u1w" firstAttribute="leading" secondItem="rhH-QC-fPE" secondAttribute="leading" id="7ju-UW-UE4"/>
+                        <constraint firstAttribute="bottom" secondItem="VUY-qr-6ny" secondAttribute="bottom" constant="16" id="CGW-0G-2r4"/>
+                        <constraint firstItem="k9Y-kp-d20" firstAttribute="leading" secondItem="rhH-QC-fPE" secondAttribute="trailing" constant="8" symbolic="YES" id="Cps-XJ-CTG"/>
+                        <constraint firstItem="rhH-QC-fPE" firstAttribute="width" secondItem="k9Y-kp-d20" secondAttribute="width" multiplier="0.5" id="HSE-eP-PD4"/>
+                        <constraint firstItem="rhH-QC-fPE" firstAttribute="leading" secondItem="HOe-fR-LRw" secondAttribute="leading" constant="20" symbolic="YES" id="Pxg-ar-c6Y"/>
+                        <constraint firstItem="rhH-QC-fPE" firstAttribute="top" secondItem="HOe-fR-LRw" secondAttribute="top" constant="20" symbolic="YES" id="Rzc-ng-zfA"/>
+                        <constraint firstItem="VUY-qr-6ny" firstAttribute="leading" secondItem="xlG-Mj-u1w" secondAttribute="trailing" id="WRx-n5-md0"/>
+                        <constraint firstAttribute="trailing" secondItem="k9Y-kp-d20" secondAttribute="trailing" constant="20" symbolic="YES" id="aar-oP-xVy"/>
+                        <constraint firstItem="k9Y-kp-d20" firstAttribute="top" secondItem="rhH-QC-fPE" secondAttribute="top" id="amF-XN-VTY"/>
+                        <constraint firstItem="xlG-Mj-u1w" firstAttribute="top" secondItem="VUY-qr-6ny" secondAttribute="top" id="jhW-tJ-rYX"/>
+                        <constraint firstItem="xlG-Mj-u1w" firstAttribute="bottom" secondItem="VUY-qr-6ny" secondAttribute="bottom" id="kgs-eU-cfp"/>
+                        <constraint firstItem="VUY-qr-6ny" firstAttribute="trailing" secondItem="k9Y-kp-d20" secondAttribute="trailing" id="tIo-EL-Nk6"/>
+                        <constraint firstItem="xlG-Mj-u1w" firstAttribute="top" secondItem="rhH-QC-fPE" secondAttribute="bottom" constant="8" symbolic="YES" id="u5H-ZR-EjD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="HOe-fR-LRw" secondAttribute="trailing" id="6VG-o6-GBs"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="HOe-fR-LRw" secondAttribute="bottom" id="Jen-jO-WXU"/>
+                <constraint firstItem="HOe-fR-LRw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Kcu-Oo-fVq"/>
+                <constraint firstItem="HOe-fR-LRw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="r8U-1R-P0G"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="357.24637681159425" y="272.54464285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="colorCreateCourse">
+            <color red="0.96799999475479126" green="0.78799998760223389" blue="0.28299999237060547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorHeadings">
+            <color red="0.063000001013278961" green="0.16500000655651093" blue="0.2630000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorHeadingsBorder">
+            <color red="0.063000001013278961" green="0.16500000655651093" blue="0.2630000114440918" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorThemeBorder">
+            <color red="0.55299997329711914" green="0.16899999976158142" blue="0.043000001460313797" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorThemeHeadings">
+            <color red="0.55299997329711914" green="0.16899999976158142" blue="0.043000001460313797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorViewBg">
+            <color red="0.93300002813339233" green="0.9179999828338623" blue="0.89800000190734863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

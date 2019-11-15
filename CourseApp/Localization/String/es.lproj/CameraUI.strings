@@ -1,0 +1,24 @@
+/* 
+  CameraUI.strings
+  Wade7Student
+
+  Created by OSX on 26/12/17.
+  Copyright © 2017 OSX. All rights reserved.
+*/
+
+"PHOTO" = "PHOTO";
+"AEAF_LOCK_TEXT" = "AE/AF LOCK";
+"API_CANCEL_TITLE" = "Cancel";
+"HDR_AUTO" = "Auto";
+"HDR_ON" = "On";
+"HDR_OFF" = "Off";
+"TIMER_OFF_TEXT" = "Off";
+"USE_PHOTO" = "USE PHOTO";
+"USE_VIDEO" = "USE VIDEO";
+"MOMENT_TITLE_PREFIX_FORMAT" = "MOMENT";
+"VIDEO" = "VIDEO";
+"RECORDING_STOPPED_TITLE" = "Recording Stopped";
+"MAX_RECORDING_DURATION_REACHED" = "Max Recording Duration Reached";
+
+
+

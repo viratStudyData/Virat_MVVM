@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextViewCell" rowHeight="81" id="0FN-FC-iPI" customClass="TextViewCell" customModule="CourseApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="81"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0FN-FC-iPI" id="kKE-Zx-ern">
+                <rect key="frame" x="0.0" y="0.0" width="421" height="81"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="demo text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="el5-ra-XKN">
+                        <rect key="frame" x="0.0" y="0.0" width="421" height="60"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="WQW-hw-uYK"/>
+                        </constraints>
+                        <color key="textColor" name="colorHeadings"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.85531674999999996" green="0.85531674999999996" blue="0.85531674999999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" name="colorScreenBg"/>
+                <constraints>
+                    <constraint firstItem="el5-ra-XKN" firstAttribute="leading" secondItem="kKE-Zx-ern" secondAttribute="leading" id="5b6-4E-6kd"/>
+                    <constraint firstAttribute="bottom" secondItem="el5-ra-XKN" secondAttribute="bottom" id="fmY-pv-mGX"/>
+                    <constraint firstAttribute="trailing" secondItem="el5-ra-XKN" secondAttribute="trailing" id="fyO-Wr-NQI"/>
+                    <constraint firstItem="el5-ra-XKN" firstAttribute="top" secondItem="kKE-Zx-ern" secondAttribute="top" id="hq7-Pk-7Mc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" name="colorScreenBg"/>
+            <connections>
+                <outlet property="textViewOther" destination="el5-ra-XKN" id="kUZ-eb-8pA"/>
+            </connections>
+            <point key="canvasLocation" x="-347.10144927536237" y="181.13839285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="colorHeadings">
+            <color red="0.063000001013278961" green="0.16500000655651093" blue="0.2630000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorScreenBg">
+            <color red="0.97899997234344482" green="0.97200000286102295" blue="0.96200001239776611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

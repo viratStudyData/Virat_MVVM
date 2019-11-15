@@ -1,0 +1,14 @@
+/* 
+  GooglePlacePicker.strings
+  ComogiApp
+
+  Created by OSX on 20/03/18.
+  Copyright © 2018 OSX. All rights reserved.
+*/
+"PlacePickerTitle" = " Select a Location ";
+"PlacePickerSelectThisLocation" = "Select This Location";
+"PlacePickerUpdatingPlaces" = "Updating Places";
+
+
+
+
